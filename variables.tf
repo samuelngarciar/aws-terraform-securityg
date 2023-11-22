@@ -18,5 +18,5 @@ variable "ttl" {
 variable "ports" {
  description = "A list of 5 tcp ports allow"
  type       = list(number)
- default    = [22, 80, 443, 8080, 8081]
+ default    = [22, 8083, 443, 8080, 8081]
 }
